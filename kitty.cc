@@ -1,16 +1,17 @@
 #include <stdio.h>
+#include <iostream>
 #include "kitty.h"
 
 kitty::kitty(){
-  printf("Constructor\n");
+  std::cout<<"Constructor\n"<<std::endl;
   variable = 100;
 }
 
 kitty::~kitty(){
-  printf("Destructor\n");
+  std::cout<<"Destructor\n"<<std::endl;
   variable = 0;
 }
 
 void kitty::speak(){
-  printf("I'm a cat.\n");
+  std::cout<<"I'm a cat.\n"<<std::endl;
 }

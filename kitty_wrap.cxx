@@ -10,6 +10,7 @@
 #define SWIG_VERSION 0x040201
 #define SWIGPYTHON
 #define SWIG_PYTHON_DIRECTOR_NO_VTABLE
+#define SWIG_PYTHON_EXTRA_NATIVE_CONTAINERS
 
 /* -----------------------------------------------------------------------------
  *  This section contains generic SWIG labels for method/variable
